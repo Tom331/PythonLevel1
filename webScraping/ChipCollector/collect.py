@@ -47,3 +47,6 @@ while(pos < numEmails):
     emails[pos].click()
     driver.execute_script("window.history.go(-1)")
     pos = pos + 1
+
+    
+#http://stackoverflow.com/questions/41926271/storing-emails-in-list-and-going-through-them-using-selenium
