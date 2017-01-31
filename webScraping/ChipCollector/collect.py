@@ -20,7 +20,7 @@ wait = WebDriverWait(driver, 5)
 
 wait.until(EC.staleness_of(elem))
 elem = driver.find_element_by_name("passwd")
-elem.send_keys("tga1111")
+elem.send_keys("***")
 
 elem = driver.find_element_by_id("idSIButton9")
 elem.send_keys(Keys.ENTER)
